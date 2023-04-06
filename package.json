@@ -1,0 +1,32 @@
+{
+  "name": "auth-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeniBykovski/auth-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeniBykovski/auth-jwt/issues"
+  },
+  "homepage": "https://github.com/EugeniBykovski/auth-jwt#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
