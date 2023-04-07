@@ -3,7 +3,7 @@ const colors = require('colors')
 
 exports.connect = async () => {
   try {
-    const connect = await mongoose.connect('mongodb+srv://bykovskieug:17.04.1995@auth-jwt.h1hnptm.mongodb.net/?retryWrites=true&w=majority', {
+    const connect = await mongoose.connect(process.env.MONGO_URI, {
       useNewUrlParser: true,
       useUnifiedTopology: true
     })
